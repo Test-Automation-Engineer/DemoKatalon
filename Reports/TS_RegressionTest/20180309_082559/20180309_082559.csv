@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_RegressionTest,Chrome 65.0.3325.146,,2018-03-09 08:26:01,2018-03-09 08:26:15,"14,273s",PASSED
+,,,,,,
+Test Cases/Main Test Cases/TC1_Verify Successful Login,Chrome 65.0.3325.146,Verify if users can login successful. \n\nSteps:\n- Click on 'Book Appointment' button to login\n- Input username and password\n- Click on 'Login' button\n\nExpected result:\n'Appointment' section is displayed after successful login,2018-03-09 08:26:01,2018-03-09 08:26:08,"7,375s",PASSED
+comment,Chrome 65.0.3325.146,,2018-03-09 08:26:01,2018-03-09 08:26:01,"0,032s",PASSED
+comment,Chrome 65.0.3325.146,,2018-03-09 08:26:01,2018-03-09 08:26:01,"0,002s",PASSED
+openBrowser,Chrome 65.0.3325.146,,2018-03-09 08:26:01,2018-03-09 08:26:06,"5,086s",PASSED
+click,Chrome 65.0.3325.146,,2018-03-09 08:26:06,2018-03-09 08:26:07,"0,363s",PASSED
+setText,Chrome 65.0.3325.146,,2018-03-09 08:26:07,2018-03-09 08:26:07,"0,218s",PASSED
+setText,Chrome 65.0.3325.146,,2018-03-09 08:26:07,2018-03-09 08:26:07,"0,177s",PASSED
+comment,Chrome 65.0.3325.146,,2018-03-09 08:26:07,2018-03-09 08:26:07,"0,001s",PASSED
+click,Chrome 65.0.3325.146,,2018-03-09 08:26:07,2018-03-09 08:26:08,"0,377s",PASSED
+comment,Chrome 65.0.3325.146,,2018-03-09 08:26:08,2018-03-09 08:26:08,"0,002s",PASSED
+"Statement - landingPage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_CuraAppointment/div_Appointment), G_Timeout)",Chrome 65.0.3325.146,,2018-03-09 08:26:08,2018-03-09 08:26:08,"0,084s",PASSED
+closeBrowser,Chrome 65.0.3325.146,,2018-03-09 08:26:08,2018-03-09 08:26:08,"0,694s",PASSED
+,,,,,,
+Test Cases/Main Test Cases/TC2_Verify Successful Appointment,Chrome 65.0.3325.146,Verify if users can book an appointment sucessfully.\nPre-condition: Users have already logged in\n\nSteps:\n- Fill in appoinment's information\n- Click on appointment's button\n\nExpected results:\nAppointment Confirmation page is displayed,2018-03-09 08:26:08,2018-03-09 08:26:15,"6,520s",PASSED
+comment,Chrome 65.0.3325.146,,2018-03-09 08:26:08,2018-03-09 08:26:08,"0,000s",PASSED
+comment,Chrome 65.0.3325.146,,2018-03-09 08:26:08,2018-03-09 08:26:08,"0,000s",PASSED
+openBrowser,Chrome 65.0.3325.146,,2018-03-09 08:26:08,2018-03-09 08:26:12,"3,083s",PASSED
+callTestCase,Chrome 65.0.3325.146,,2018-03-09 08:26:12,2018-03-09 08:26:13,"1,291s",PASSED
+comment,Chrome 65.0.3325.146,,2018-03-09 08:26:13,2018-03-09 08:26:13,"0,002s",PASSED
+Statement - If (true),Chrome 65.0.3325.146,,2018-03-09 08:26:13,2018-03-09 08:26:14,"0,811s",PASSED
+comment,Chrome 65.0.3325.146,,2018-03-09 08:26:14,2018-03-09 08:26:14,"0,001s",PASSED
+click,Chrome 65.0.3325.146,,2018-03-09 08:26:14,2018-03-09 08:26:14,"0,250s",PASSED
+verifyTextPresent,Chrome 65.0.3325.146,,2018-03-09 08:26:14,2018-03-09 08:26:14,"0,104s",PASSED
+comment,Chrome 65.0.3325.146,,2018-03-09 08:26:14,2018-03-09 08:26:14,"0,001s",PASSED
+Statement - If (true),Chrome 65.0.3325.146,,2018-03-09 08:26:14,2018-03-09 08:26:14,"0,225s",PASSED
+closeBrowser,Chrome 65.0.3325.146,,2018-03-09 08:26:14,2018-03-09 08:26:15,"0,617s",PASSED

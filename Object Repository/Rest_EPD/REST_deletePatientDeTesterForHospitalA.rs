@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>REST_deletePatientDeTesterForHospitalA</name>
+   <tag></tag>
+   <elementGuidId>527d0bdb-c3a2-429e-aebe-0ccf1146cf65</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <httpBody></httpBody>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Accept-Encoding</name>
+      <type>Main</type>
+      <value>application/json</value>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Accept-Charset</name>
+      <type>Main</type>
+      <value>utf-8</value>
+   </httpHeaderProperties>
+   <restRequestMethod>DELETE</restRequestMethod>
+   <restUrl>https://epdonline.herokuapp.com/api/v1/patients/104/?api_token=salves-epd-46374434340</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceFunction></soapServiceFunction>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>

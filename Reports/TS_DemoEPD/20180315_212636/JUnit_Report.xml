@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_DemoEPD" time="10" tests="1" failures="0" errors="0">
+   <testsuite name="TS_DemoEPD" tests="1" failures="0" errors="0" time="10" timestamp="2018-03-15 21:26:43" hostname="mslin - menLap" id="Test Suites/TS_DemoEPD">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\mslin\\katalonstudio\\sampleWeb\\Reports\\TS_DemoEPD\\20180315_212636"/>
+         <property name="logFiles" value="C:\\Users\\mslin\\katalonstudio\\sampleWeb\\Reports\\TS_DemoEPD\\20180315_212636\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="mslin - menLap"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Chrome 65.0.3325.162"/>
+         <property name="hostAddress" value="192.168.99.1"/>
+         <property name="sessionId" value="1df8f62ce5e5c424a6d5a7aaf9a53138"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/EPD/Test Cases/TC_MaakPatientAan_ControleerPatient_VoegBehandelingToe_VerwijderPatient" classname="Test Cases/EPD/Test Cases/TC_MaakPatientAan_ControleerPatient_VoegBehandelingToe_VerwijderPatient" status="PASSED">
+         <system-out><![CDATA[2018-03-15 21:26:44 - [TEST_CASE][PASSED] - Test Cases/EPD/Test Cases/TC_MaakPatientAan_ControleerPatient_VoegBehandelingToe_VerwijderPatient: Test Cases/EPD/Test Cases/TC_MaakPatientAan_ControleerPatient_VoegBehandelingToe_VerwijderPatient
+
+2018-03-15 21:26:44 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/EPD/Components/Rest/MaakPatientAanVoorZiekenhuisA' successfully
+
+2018-03-15 21:26:44 - [TEST_CASE][PASSED] - Test Cases/EPD/Components/Rest/MaakPatientAanVoorZiekenhuisA: Test Cases/EPD/Components/Rest/MaakPatientAanVoorZiekenhuisA
+
+2018-03-15 21:26:44 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Rest_EPD/REST_postPatientDeTesterForHospitalA)): Send request successfully
+
+2018-03-15 21:26:45 - [MESSAGE][PASSED] - Send request successfully
+
+2018-03-15 21:26:45 - [TEST_STEP][PASSED] - Statement - println(response): null
+
+2018-03-15 21:26:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/EPD/Components/Rest/MaakPatientAanVoorZiekenhuisA' successfully
+
+2018-03-15 21:26:45 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/EPD/Components/UI/StartBrowser' successfully
+
+2018-03-15 21:26:45 - [TEST_CASE][PASSED] - Test Cases/EPD/Components/UI/StartBrowser: Test Cases/EPD/Components/UI/StartBrowser
+
+2018-03-15 21:26:45 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://epdonline.herokuapp.com/'
+
+2018-03-15 21:26:49 - [MESSAGE][PASSED] - Browser is opened with url: 'https://epdonline.herokuapp.com/'
+
+2018-03-15 21:26:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/EPD/Components/UI/StartBrowser' successfully
+
+2018-03-15 21:26:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_EPD online/a_Open EPD' is clicked on
+
+2018-03-15 21:26:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_EPD online/a_Open EPD' is clicked on
+
+2018-03-15 21:26:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_EPD online/a_Overzicht patienten' is clicked on
+
+2018-03-15 21:26:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_EPD online/a_Overzicht patienten' is clicked on
+
+2018-03-15 21:26:50 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/EPD/Components/UI/VerifieerPatient' successfully
+
+2018-03-15 21:26:50 - [TEST_CASE][PASSED] - Test Cases/EPD/Components/UI/VerifieerPatient: Test Cases/EPD/Components/UI/VerifieerPatient
+
+2018-03-15 21:26:50 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'de Tester' is present on page 
+
+2018-03-15 21:26:50 - [MESSAGE][PASSED] - Text 'de Tester' is present on page 
+
+2018-03-15 21:26:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/EPD/Components/UI/VerifieerPatient' successfully
+
+2018-03-15 21:26:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_EPD online (1)/a_Details' is clicked on
+
+2018-03-15 21:26:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_EPD online (1)/a_Details' is clicked on
+
+2018-03-15 21:26:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_EPD online (1)/a_Behandeling toevoegen' is clicked on
+
+2018-03-15 21:26:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_EPD online (1)/a_Behandeling toevoegen' is clicked on
+
+2018-03-15 21:26:50 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/EPD/Components/UI/VoegBehandelingToe' successfully
+
+2018-03-15 21:26:51 - [TEST_CASE][PASSED] - Test Cases/EPD/Components/UI/VoegBehandelingToe: Test Cases/EPD/Components/UI/VoegBehandelingToe
+
+2018-03-15 21:26:51 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '18' are selected in object 'Object Repository/Page_EPD online (1)/select_12345678910111213141516'  using regular expression
+
+2018-03-15 21:26:52 - [MESSAGE][PASSED] - All options with value '18' are selected in object 'Object Repository/Page_EPD online (1)/select_12345678910111213141516'  using regular expression
+
+2018-03-15 21:26:52 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '4' are selected in object 'Object Repository/Page_EPD online (1)/select_JanuaryFebruaryMarchApr'  using regular expression
+
+2018-03-15 21:26:52 - [MESSAGE][PASSED] - All options with value '4' are selected in object 'Object Repository/Page_EPD online (1)/select_JanuaryFebruaryMarchApr'  using regular expression
+
+2018-03-15 21:26:52 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2019' are selected in object 'Object Repository/Page_EPD online (1)/select_20162017201820192020202'  using regular expression
+
+2018-03-15 21:26:52 - [MESSAGE][PASSED] - All options with value '2019' are selected in object 'Object Repository/Page_EPD online (1)/select_20162017201820192020202'  using regular expression
+
+2018-03-15 21:26:52 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Poliklinisch' are selected in object 'Object Repository/Page_EPD online (1)/select_PoliklinischOpname'  using regular expression
+
+2018-03-15 21:26:52 - [MESSAGE][PASSED] - All options with value 'Poliklinisch' are selected in object 'Object Repository/Page_EPD online (1)/select_PoliklinischOpname'  using regular expression
+
+2018-03-15 21:26:52 - [TEST_STEP][PASSED] - setText: Text 'Dokter anders' is set on object 'Object Repository/Page_EPD online (1)/input_treatmenttreated_by'
+
+2018-03-15 21:26:52 - [MESSAGE][PASSED] - Text 'Dokter anders' is set on object 'Object Repository/Page_EPD online (1)/input_treatmenttreated_by'
+
+2018-03-15 21:26:52 - [TEST_STEP][PASSED] - setText: Text 'Knie operatie' is set on object 'Object Repository/Page_EPD online (1)/input_treatmentname'
+
+2018-03-15 21:26:53 - [MESSAGE][PASSED] - Text 'Knie operatie' is set on object 'Object Repository/Page_EPD online (1)/input_treatmentname'
+
+2018-03-15 21:26:53 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Chirurgie' are selected in object 'Object Repository/Page_EPD online (1)/select_RadiologieChirurgieCard'  using regular expression
+
+2018-03-15 21:26:53 - [MESSAGE][PASSED] - All options with value 'Chirurgie' are selected in object 'Object Repository/Page_EPD online (1)/select_RadiologieChirurgieCard'  using regular expression
+
+2018-03-15 21:26:53 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Normaal' are selected in object 'Object Repository/Page_EPD online (1)/select_LaagNormaalSpoed'  using regular expression
+
+2018-03-15 21:26:53 - [MESSAGE][PASSED] - All options with value 'Normaal' are selected in object 'Object Repository/Page_EPD online (1)/select_LaagNormaalSpoed'  using regular expression
+
+2018-03-15 21:26:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/EPD/Components/UI/VoegBehandelingToe' successfully
+
+2018-03-15 21:26:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_EPD online (1)/input_commit' is clicked on
+
+2018-03-15 21:26:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_EPD online (1)/input_commit' is clicked on
+
+2018-03-15 21:26:53 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_EPD online (1)/td_Knie operatie' is present
+
+2018-03-15 21:26:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-03-15 21:26:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EPD online (1)/td_Knie operatie' is present
+
+2018-03-15 21:26:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_EPD online (2)/a_Verwijderen (1)' is clicked on
+
+2018-03-15 21:26:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_EPD online (2)/a_Verwijderen (1)' is clicked on
+
+2018-03-15 21:26:53 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-03-15 21:26:53 - [MESSAGE][PASSED] - Alert accepted
+
+2018-03-15 21:26:53 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/EPD/Components/UI/CloseBrowser' successfully
+
+2018-03-15 21:26:53 - [TEST_CASE][PASSED] - Test Cases/EPD/Components/UI/CloseBrowser: Test Cases/EPD/Components/UI/CloseBrowser
+
+2018-03-15 21:26:53 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-15 21:26:54 - [MESSAGE][PASSED] - Browser is closed
+
+2018-03-15 21:26:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/EPD/Components/UI/CloseBrowser' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-15 21:26:43 - [TEST_SUITE][PASSED] - TS_DemoEPD: Test Cases/EPD/Test Cases/TC_MaakPatientAan_ControleerPatient_VoegBehandelingToe_VerwijderPatient]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

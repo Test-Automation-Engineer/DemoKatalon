@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportEntity>
+   <description></description>
+   <name>20180313_210448</name>
+   <tag></tag>
+   <displayName>20180313_210448</displayName>
+   <reportTestCases>
+      <testCaseId>Test Cases/EPD/Test Cases/TC_MaakPatientAanEnControleerAangemaaktePatient</testCaseId>
+      <testCaseName>TC_MaakPatientAanEnControleerAangemaaktePatient</testCaseName>
+      <videoLocation></videoLocation>
+   </reportTestCases>
+</ReportEntity>
