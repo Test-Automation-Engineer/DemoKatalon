@@ -1,173 +1,145 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="TS_RegressionTest" time="33" tests="2" failures="0" errors="0">
-   <testsuite name="TS_RegressionTest" tests="2" failures="0" errors="0" time="33" timestamp="2018-03-09 12:11:59" hostname="root - 96998c457854" id="Test Suites/TS_RegressionTest">
+<testsuites name="TS_DemoEPD" time="21" tests="1" failures="0" errors="0">
+   <testsuite name="TS_DemoEPD" tests="1" failures="0" errors="0" time="21" timestamp="2018-03-18 16:58:01" hostname="root - 407fad7ff0f9" id="Test Suites/TS_DemoEPD">
       <properties>
          <property name="deviceName" value=""/>
          <property name="devicePlatform" value=""/>
-         <property name="logFolder" value="/katalon/katalon/project/Reports/TS_RegressionTest/20180309_121153"/>
-         <property name="logFiles" value="/katalon/katalon/project/Reports/TS_RegressionTest/20180309_121153/execution0.log"/>
+         <property name="logFolder" value="/katalon/katalon/project/Reports/TS_DemoEPD/20180318_165757"/>
+         <property name="logFiles" value="/katalon/katalon/project/Reports/TS_DemoEPD/20180318_165757/execution0.log"/>
          <property name="attachments" value=""/>
-         <property name="hostName" value="root - 96998c457854"/>
+         <property name="hostName" value="root - 407fad7ff0f9"/>
          <property name="os" value="Linux 64bit"/>
          <property name="katalonVersion" value="5.3.1.1"/>
          <property name="browser" value="Chrome 64.0.3282.186"/>
-         <property name="hostAddress" value="172.17.0.4"/>
-         <property name="sessionId" value="c01a3f1cf7c6fc66b95be4b2898eb57e"/>
+         <property name="hostAddress" value="172.17.0.2"/>
+         <property name="sessionId" value="e91d8d1e125d2ec5b37c25935ccac544"/>
          <property name="seleniumVersion" value="3.7.1"/>
          <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
          <property name="platform" value="Linux"/>
       </properties>
-      <testcase name="Test Cases/Main Test Cases/TC1_Verify Successful Login" classname="Test Cases/Main Test Cases/TC1_Verify Successful Login" status="PASSED">
-         <system-out><![CDATA[2018-03-09 12:12:01 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/TC1_Verify Successful Login: Test Cases/Main Test Cases/TC1_Verify Successful Login
+      <testcase name="Test Cases/EPD/Test Cases/TC_MaakPatientAan_ControleerPatient_VoegBehandelingToe_VerwijderPatient" classname="Test Cases/EPD/Test Cases/TC_MaakPatientAan_ControleerPatient_VoegBehandelingToe_VerwijderPatient" status="PASSED">
+         <system-out><![CDATA[2018-03-18 16:58:03 - [TEST_CASE][PASSED] - Test Cases/EPD/Test Cases/TC_MaakPatientAan_ControleerPatient_VoegBehandelingToe_VerwijderPatient: Test Cases/EPD/Test Cases/TC_MaakPatientAan_ControleerPatient_VoegBehandelingToe_VerwijderPatient
 
-2018-03-09 12:12:03 - [TEST_STEP][PASSED] - comment: Story: Login to CURA system
+2018-03-18 16:58:04 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/EPD/Components/Rest/MaakPatientAanVoorZiekenhuisA' successfully
 
-2018-03-09 12:12:03 - [TEST_STEP][PASSED] - comment: Given that the user has the valid login information
+2018-03-18 16:58:05 - [TEST_CASE][PASSED] - Test Cases/EPD/Components/Rest/MaakPatientAanVoorZiekenhuisA: Test Cases/EPD/Components/Rest/MaakPatientAanVoorZiekenhuisA
 
-2018-03-09 12:12:03 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://demoaut.katalon.com'
+2018-03-18 16:58:05 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(EPD/Rest/REST_postPatientDeTesterForHospitalA)): Send request successfully
 
-2018-03-09 12:12:15 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demoaut.katalon.com'
+2018-03-18 16:58:06 - [MESSAGE][PASSED] - Send request successfully
 
-2018-03-09 12:12:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CuraHomepage/btn_MakeAppointment' is clicked on
+2018-03-18 16:58:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/EPD/Components/Rest/MaakPatientAanVoorZiekenhuisA' successfully
 
-2018-03-09 12:12:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CuraHomepage/btn_MakeAppointment' is clicked on
+2018-03-18 16:58:06 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/EPD/Components/UI/StartBrowser' successfully
 
-2018-03-09 12:12:16 - [TEST_STEP][PASSED] - setText: Text 'John Doe' is set on object 'Object Repository/Page_Login/txt_UserName'
+2018-03-18 16:58:06 - [TEST_CASE][PASSED] - Test Cases/EPD/Components/UI/StartBrowser: Test Cases/EPD/Components/UI/StartBrowser
 
-2018-03-09 12:12:17 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_Login/txt_UserName'
+2018-03-18 16:58:06 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://epdonline.herokuapp.com/'
 
-2018-03-09 12:12:17 - [TEST_STEP][PASSED] - setText: Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_Login/txt_Password'
+2018-03-18 16:58:14 - [MESSAGE][PASSED] - Browser is opened with url: 'https://epdonline.herokuapp.com/'
 
-2018-03-09 12:12:17 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_Login/txt_Password'
+2018-03-18 16:58:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/EPD/Components/UI/StartBrowser' successfully
 
-2018-03-09 12:12:17 - [TEST_STEP][PASSED] - comment: When he logins to CURA system
+2018-03-18 16:58:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/EPD/UI/Page_EPD online/a_Open EPD' is clicked on
 
-2018-03-09 12:12:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+2018-03-18 16:58:15 - [MESSAGE][PASSED] - Object: 'Object Repository/EPD/UI/Page_EPD online/a_Open EPD' is clicked on
 
-2018-03-09 12:12:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+2018-03-18 16:58:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/EPD/UI/Page_EPD online/a_Overzicht patienten' is clicked on
 
-2018-03-09 12:12:18 - [TEST_STEP][PASSED] - comment: Then he should be able to login successfully
+2018-03-18 16:58:15 - [MESSAGE][PASSED] - Object: 'Object Repository/EPD/UI/Page_EPD online/a_Overzicht patienten' is clicked on
 
-2018-03-09 12:12:18 - [TEST_STEP][PASSED] - Statement - landingPage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_CuraAppointment/div_Appointment), G_Timeout): Object 'Object Repository/Page_CuraAppointment/div_Appointment' is present
+2018-03-18 16:58:15 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/EPD/Components/UI/VerifieerPatient' successfully
 
-2018-03-09 12:12:18 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CuraAppointment/div_Appointment' is present
+2018-03-18 16:58:15 - [TEST_CASE][PASSED] - Test Cases/EPD/Components/UI/VerifieerPatient: Test Cases/EPD/Components/UI/VerifieerPatient
 
-2018-03-09 12:12:18 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+2018-03-18 16:58:15 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'de Tester' is present on page 
 
-2018-03-09 12:12:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+2018-03-18 16:58:15 - [MESSAGE][PASSED] - Text 'de Tester' is present on page 
+
+2018-03-18 16:58:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/EPD/Components/UI/VerifieerPatient' successfully
+
+2018-03-18 16:58:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/EPD/UI/Page_EPD online/a_Details' is clicked on
+
+2018-03-18 16:58:15 - [MESSAGE][PASSED] - Object: 'Object Repository/EPD/UI/Page_EPD online/a_Details' is clicked on
+
+2018-03-18 16:58:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/EPD/UI/Page_EPD_Patient details/a_Behandeling toevoegen' is clicked on
+
+2018-03-18 16:58:16 - [MESSAGE][PASSED] - Object: 'Object Repository/EPD/UI/Page_EPD_Patient details/a_Behandeling toevoegen' is clicked on
+
+2018-03-18 16:58:16 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/EPD/Components/UI/VoegBehandelingToe' successfully
+
+2018-03-18 16:58:16 - [TEST_CASE][PASSED] - Test Cases/EPD/Components/UI/VoegBehandelingToe: Test Cases/EPD/Components/UI/VoegBehandelingToe
+
+2018-03-18 16:58:16 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '18' are selected in object 'Object Repository/EPD/UI/Page_EPD Toevoegen behandeling/select_12345678910111213141516'  using regular expression
+
+2018-03-18 16:58:17 - [MESSAGE][PASSED] - All options with value '18' are selected in object 'Object Repository/EPD/UI/Page_EPD Toevoegen behandeling/select_12345678910111213141516'  using regular expression
+
+2018-03-18 16:58:17 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '6' are selected in object 'Object Repository/EPD/UI/Page_EPD Toevoegen behandeling/select_JanuaryFebruaryMarchApr'  using regular expression
+
+2018-03-18 16:58:18 - [MESSAGE][PASSED] - All options with value '6' are selected in object 'Object Repository/EPD/UI/Page_EPD Toevoegen behandeling/select_JanuaryFebruaryMarchApr'  using regular expression
+
+2018-03-18 16:58:18 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2020' are selected in object 'Object Repository/EPD/UI/Page_EPD Toevoegen behandeling/select_20162017201820192020202'  using regular expression
+
+2018-03-18 16:58:19 - [MESSAGE][PASSED] - All options with value '2020' are selected in object 'Object Repository/EPD/UI/Page_EPD Toevoegen behandeling/select_20162017201820192020202'  using regular expression
+
+2018-03-18 16:58:19 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Opname' are selected in object 'Object Repository/EPD/UI/Page_EPD Toevoegen behandeling/select_PoliklinischOpname'  using regular expression
+
+2018-03-18 16:58:19 - [MESSAGE][PASSED] - All options with value 'Opname' are selected in object 'Object Repository/EPD/UI/Page_EPD Toevoegen behandeling/select_PoliklinischOpname'  using regular expression
+
+2018-03-18 16:58:19 - [TEST_STEP][PASSED] - setText: Text 'Dokter anders' is set on object 'Object Repository/EPD/UI/Page_EPD Toevoegen behandeling/input_treatmenttreated_by'
+
+2018-03-18 16:58:19 - [MESSAGE][PASSED] - Text 'Dokter anders' is set on object 'Object Repository/EPD/UI/Page_EPD Toevoegen behandeling/input_treatmenttreated_by'
+
+2018-03-18 16:58:19 - [TEST_STEP][PASSED] - setText: Text 'Knie operatie' is set on object 'Object Repository/EPD/UI/Page_EPD Toevoegen behandeling/input_treatmentname'
+
+2018-03-18 16:58:20 - [MESSAGE][PASSED] - Text 'Knie operatie' is set on object 'Object Repository/EPD/UI/Page_EPD Toevoegen behandeling/input_treatmentname'
+
+2018-03-18 16:58:20 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Chirurgie' are selected in object 'Object Repository/EPD/UI/Page_EPD Toevoegen behandeling/select_RadiologieChirurgieCard'  using regular expression
+
+2018-03-18 16:58:20 - [MESSAGE][PASSED] - All options with value 'Chirurgie' are selected in object 'Object Repository/EPD/UI/Page_EPD Toevoegen behandeling/select_RadiologieChirurgieCard'  using regular expression
+
+2018-03-18 16:58:20 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Normaal' are selected in object 'Object Repository/EPD/UI/Page_EPD Toevoegen behandeling/select_LaagNormaalSpoed'  using regular expression
+
+2018-03-18 16:58:20 - [MESSAGE][PASSED] - All options with value 'Normaal' are selected in object 'Object Repository/EPD/UI/Page_EPD Toevoegen behandeling/select_LaagNormaalSpoed'  using regular expression
+
+2018-03-18 16:58:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/EPD/Components/UI/VoegBehandelingToe' successfully
+
+2018-03-18 16:58:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/EPD/UI/Page_EPD Toevoegen behandeling/input_commit' is clicked on
+
+2018-03-18 16:58:21 - [MESSAGE][PASSED] - Object: 'Object Repository/EPD/UI/Page_EPD Toevoegen behandeling/input_commit' is clicked on
+
+2018-03-18 16:58:21 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/EPD/UI/Page_EPD_Patient details/div_Behandeling is successvol' is present
+
+2018-03-18 16:58:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-03-18 16:58:21 - [MESSAGE][PASSED] - Object 'Object Repository/EPD/UI/Page_EPD_Patient details/div_Behandeling is successvol' is present
+
+2018-03-18 16:58:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/EPD/UI/Page_EPD_Patient details/a_Verwijderen (1)' is clicked on
+
+2018-03-18 16:58:21 - [MESSAGE][PASSED] - Object: 'Object Repository/EPD/UI/Page_EPD_Patient details/a_Verwijderen (1)' is clicked on
+
+2018-03-18 16:58:21 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-03-18 16:58:22 - [MESSAGE][PASSED] - Alert accepted
+
+2018-03-18 16:58:22 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/EPD/UI/Page_EPD_Patient details/div_Patient is succesvol verwi' is present
+
+2018-03-18 16:58:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-03-18 16:58:22 - [MESSAGE][PASSED] - Object 'Object Repository/EPD/UI/Page_EPD_Patient details/div_Patient is succesvol verwi' is present
+
+2018-03-18 16:58:22 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/EPD/Components/UI/CloseBrowser' successfully
+
+2018-03-18 16:58:22 - [TEST_CASE][PASSED] - Test Cases/EPD/Components/UI/CloseBrowser: Test Cases/EPD/Components/UI/CloseBrowser
+
+2018-03-18 16:58:22 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-18 16:58:22 - [MESSAGE][PASSED] - Browser is closed
+
+2018-03-18 16:58:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/EPD/Components/UI/CloseBrowser' successfully]]></system-out>
          <system-err><![CDATA[]]></system-err>
       </testcase>
-      <testcase name="Test Cases/Main Test Cases/TC2_Verify Successful Appointment" classname="Test Cases/Main Test Cases/TC2_Verify Successful Appointment" status="PASSED">
-         <system-out><![CDATA[2018-03-09 12:12:18 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/TC2_Verify Successful Appointment: Test Cases/Main Test Cases/TC2_Verify Successful Appointment
-
-2018-03-09 12:12:19 - [TEST_STEP][PASSED] - comment: Story: Book an appointment
-
-2018-03-09 12:12:19 - [TEST_STEP][PASSED] - comment: Given that the user has logged into their account
-
-2018-03-09 12:12:19 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://demoaut.katalon.com'
-
-2018-03-09 12:12:23 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demoaut.katalon.com'
-
-2018-03-09 12:12:23 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common Test Cases/Login' successfully
-
-2018-03-09 12:12:23 - [TEST_CASE][PASSED] - Test Cases/Common Test Cases/Login: Test Cases/Common Test Cases/Login
-
-2018-03-09 12:12:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CuraHomepage/btn_MakeAppointment' is clicked on
-
-2018-03-09 12:12:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CuraHomepage/btn_MakeAppointment' is clicked on
-
-2018-03-09 12:12:25 - [TEST_STEP][PASSED] - setText: Text 'John Doe' is set on object 'Object Repository/Page_Login/txt_UserName'
-
-2018-03-09 12:12:25 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_Login/txt_UserName'
-
-2018-03-09 12:12:25 - [TEST_STEP][PASSED] - setText: Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_Login/txt_Password'
-
-2018-03-09 12:12:26 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_Login/txt_Password'
-
-2018-03-09 12:12:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login/btn_Login' is clicked on
-
-2018-03-09 12:12:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/btn_Login' is clicked on
-
-2018-03-09 12:12:26 - [TEST_STEP][PASSED] - Statement - landingPage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_CuraAppointment/div_Appointment), G_Timeout): Object 'Object Repository/Page_CuraAppointment/div_Appointment' is present
-
-2018-03-09 12:12:27 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CuraAppointment/div_Appointment' is present
-
-2018-03-09 12:12:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test Cases/Login' successfully
-
-2018-03-09 12:12:27 - [TEST_STEP][PASSED] - comment: And Appointment page is displayed
-
-2018-03-09 12:12:27 - [TEST_STEP][PASSED] - Statement - If (true): Text 'Please make appointment as soon as possible.' is set on object 'Object Repository/Page_CuraAppointment/txt_Comment'
-
-2018-03-09 12:12:27 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Page_CuraAppointment/lst_Facility' 
-
-2018-03-09 12:12:27 - [MESSAGE][PASSED] - All options with label 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Page_CuraAppointment/lst_Facility' 
-
-2018-03-09 12:12:27 - [TEST_STEP][PASSED] - check: Object 'Object Repository/Page_CuraAppointment/chk_Medicaid' is checked
-
-2018-03-09 12:12:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CuraAppointment/chk_Medicaid' is checked
-
-2018-03-09 12:12:28 - [TEST_STEP][PASSED] - check: Object 'Object Repository/Page_CuraAppointment/chk_Readmission' is checked
-
-2018-03-09 12:12:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CuraAppointment/chk_Readmission' is checked
-
-2018-03-09 12:12:28 - [TEST_STEP][PASSED] - setText: Text '27/12/2016' is set on object 'Object Repository/Page_CuraAppointment/txt_VisitDate'
-
-2018-03-09 12:12:29 - [MESSAGE][PASSED] - Text '27/12/2016' is set on object 'Object Repository/Page_CuraAppointment/txt_VisitDate'
-
-2018-03-09 12:12:29 - [TEST_STEP][PASSED] - setText: Text 'Please make appointment as soon as possible.' is set on object 'Object Repository/Page_CuraAppointment/txt_Comment'
-
-2018-03-09 12:12:30 - [MESSAGE][PASSED] - Text 'Please make appointment as soon as possible.' is set on object 'Object Repository/Page_CuraAppointment/txt_Comment'
-
-2018-03-09 12:12:30 - [TEST_STEP][PASSED] - comment: When he fills in valid information in Appointment page
-
-2018-03-09 12:12:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CuraAppointment/btn_BookAppointment' is clicked on
-
-2018-03-09 12:12:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CuraAppointment/btn_BookAppointment' is clicked on
-
-2018-03-09 12:12:30 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Appointment Confirmation' is present on page 
-
-2018-03-09 12:12:31 - [MESSAGE][PASSED] - Text 'Appointment Confirmation' is present on page 
-
-2018-03-09 12:12:31 - [TEST_STEP][PASSED] - comment: Then he should be able to book a new appointment
-
-2018-03-09 12:12:31 - [TEST_STEP][PASSED] - Statement - If (true): Actual text 'Please make appointment as soon as possible.' and expected text 'Please make appointment as soon as possible.' are matched 
-
-2018-03-09 12:12:31 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Hongkong CURA Healthcare Center' and expected text 'Hongkong CURA Healthcare Center' are matched 
-
-2018-03-09 12:12:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_AppointmentConfirmation/lbl_Facility' is: 'Hongkong CURA Healthcare Center'
-
-2018-03-09 12:12:31 - [MESSAGE][PASSED] - Actual text 'Hongkong CURA Healthcare Center' and expected text 'Hongkong CURA Healthcare Center' are matched 
-
-2018-03-09 12:12:31 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Yes' and expected text 'Yes' are matched 
-
-2018-03-09 12:12:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_AppointmentConfirmation/lbl_HospitalReadmission' is: 'Yes'
-
-2018-03-09 12:12:31 - [MESSAGE][PASSED] - Actual text 'Yes' and expected text 'Yes' are matched 
-
-2018-03-09 12:12:31 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Medicaid' and expected text 'Medicaid' are matched 
-
-2018-03-09 12:12:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_AppointmentConfirmation/lbl_Program' is: 'Medicaid'
-
-2018-03-09 12:12:31 - [MESSAGE][PASSED] - Actual text 'Medicaid' and expected text 'Medicaid' are matched 
-
-2018-03-09 12:12:31 - [TEST_STEP][PASSED] - verifyMatch: Actual text '27/12/2016' and expected text '27/12/2016' are matched 
-
-2018-03-09 12:12:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_AppointmentConfirmation/lbl_VisitDate' is: '27/12/2016'
-
-2018-03-09 12:12:31 - [MESSAGE][PASSED] - Actual text '27/12/2016' and expected text '27/12/2016' are matched 
-
-2018-03-09 12:12:31 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Please make appointment as soon as possible.' and expected text 'Please make appointment as soon as possible.' are matched 
-
-2018-03-09 12:12:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_AppointmentConfirmation/lbl_Comment' is: 'Please make appointment as soon as possible.'
-
-2018-03-09 12:12:31 - [MESSAGE][PASSED] - Actual text 'Please make appointment as soon as possible.' and expected text 'Please make appointment as soon as possible.' are matched 
-
-2018-03-09 12:12:31 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
-
-2018-03-09 12:12:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
-         <system-err><![CDATA[]]></system-err>
-      </testcase>
-      <system-out><![CDATA[2018-03-09 12:11:59 - [TEST_SUITE][PASSED] - TS_RegressionTest: Test Cases/Main Test Cases/TC2_Verify Successful Appointment]]></system-out>
+      <system-out><![CDATA[2018-03-18 16:58:01 - [TEST_SUITE][PASSED] - TS_DemoEPD: Test Cases/EPD/Test Cases/TC_MaakPatientAan_ControleerPatient_VoegBehandelingToe_VerwijderPatient]]></system-out>
       <system-err><![CDATA[]]></system-err>
    </testsuite>
 </testsuites>

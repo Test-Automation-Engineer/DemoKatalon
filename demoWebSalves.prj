@@ -5,4 +5,23 @@
    <tag></tag>
    <UUID>c55c3a6c-de7f-4faa-a917-23333c1c5031</UUID>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <recentExpandedTreeEntityIds>Test Cases</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Test Cases/EPD</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Test Cases/EPD/Components</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Test Cases/EPD/Components/UI</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Test Cases/EPD/Test Cases</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Object Repository</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Object Repository/EPD</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Test Suites</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Data Files</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Keywords</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Keywords/com/example</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Reports</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Reports/demoEPD</recentExpandedTreeEntityIds>
+   <recentOpenedTreeEntityIds>Test Suites/TS_DemoEPD</recentOpenedTreeEntityIds>
+   <recentOpenedTreeEntityIds xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+   <recentOpenedTreeEntityIds>Test Cases/EPD/Test Cases/TC_MaakPatientAan_ControleerPatient_VoegBehandelingToe_VerwijderPatient</recentOpenedTreeEntityIds>
+   <recentOpenedTreeEntityIds>Test Cases/EPD/Components/UI/VoegBehandelingToe</recentOpenedTreeEntityIds>
+   <recentOpenedTreeEntityIds>Test Cases/EPD/Components/UI/StartBrowser</recentOpenedTreeEntityIds>
+   <recentOpenedTreeEntityIds>Data Files/Testdata_Behandeling</recentOpenedTreeEntityIds>
 </Project>
