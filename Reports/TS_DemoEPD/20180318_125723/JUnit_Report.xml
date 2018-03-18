@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_DemoEPD" time="18" tests="0" failures="2" errors="0">
+   <testsuite name="TS_DemoEPD" tests="0" failures="2" errors="0" time="18" timestamp="2018-03-18 12:57:34" hostname="mslin - menLap" id="Test Suites/TS_DemoEPD">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\mslin\\katalonstudio\\sampleWeb\\Reports\\TS_DemoEPD\\20180318_125723"/>
+         <property name="logFiles" value="C:\\Users\\mslin\\katalonstudio\\sampleWeb\\Reports\\TS_DemoEPD\\20180318_125723\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\mslin\\katalonstudio\\sampleWeb\\Reports\\TS_DemoEPD\\20180318_125723\\1521374264007.png, C:\\Users\\mslin\\katalonstudio\\sampleWeb\\Reports\\TS_DemoEPD\\20180318_125723\\1521374272425.png"/>
+         <property name="hostName" value="mslin - menLap"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Chrome 65.0.3325.162"/>
+         <property name="hostAddress" value="192.168.99.1"/>
+         <property name="sessionId" value="e5835c7ac5c1587c3e68f1feea77f411"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/EPD/Test Cases/TC_MaakPatientAan_ControleerPatient_VoegBehandelingToe_VerwijderPatient" classname="Test Cases/EPD/Test Cases/TC_MaakPatientAan_ControleerPatient_VoegBehandelingToe_VerwijderPatient" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'null' of object 'Object Repository/EPD/UI/Page_EPD online (1)/input_treatmenttreated_by' (Root cause: java.lang.IllegalArgumentException: Text is null)"/>
+         <system-out><![CDATA[2018-03-18 12:57:34 - [TEST_CASE][FAILED] - Test Cases/EPD/Test Cases/TC_MaakPatientAan_ControleerPatient_VoegBehandelingToe_VerwijderPatient: Test Cases/EPD/Test Cases/TC_MaakPatientAan_ControleerPatient_VoegBehandelingToe_VerwijderPatient FAILED because (of) Unable to set text 'null' of object 'Object Repository/EPD/UI/Page_EPD online (1)/input_treatmenttreated_by' (Root cause: java.lang.IllegalArgumentException: Text is null)
+
+2018-03-18 12:57:35 - [TEST_STEP][PASSED] - Statement - behandelaar = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2018-03-18 12:57:35 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/EPD/Components/Rest/MaakPatientAanVoorZiekenhuisA' successfully
+
+2018-03-18 12:57:35 - [TEST_CASE][PASSED] - Test Cases/EPD/Components/Rest/MaakPatientAanVoorZiekenhuisA: Test Cases/EPD/Components/Rest/MaakPatientAanVoorZiekenhuisA
+
+2018-03-18 12:57:35 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(EPD/Rest/REST_postPatientDeTesterForHospitalA)): Send request successfully
+
+2018-03-18 12:57:36 - [MESSAGE][PASSED] - Send request successfully
+
+2018-03-18 12:57:36 - [TEST_STEP][PASSED] - Statement - println(response): null
+
+2018-03-18 12:57:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/EPD/Components/Rest/MaakPatientAanVoorZiekenhuisA' successfully
+
+2018-03-18 12:57:36 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/EPD/Components/UI/StartBrowser' successfully
+
+2018-03-18 12:57:36 - [TEST_CASE][PASSED] - Test Cases/EPD/Components/UI/StartBrowser: Test Cases/EPD/Components/UI/StartBrowser
+
+2018-03-18 12:57:36 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://epdonline.herokuapp.com/'
+
+2018-03-18 12:57:40 - [MESSAGE][PASSED] - Browser is opened with url: 'https://epdonline.herokuapp.com/'
+
+2018-03-18 12:57:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/EPD/Components/UI/StartBrowser' successfully
+
+2018-03-18 12:57:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/EPD/UI/Page_EPD online/a_Open EPD' is clicked on
+
+2018-03-18 12:57:40 - [MESSAGE][PASSED] - Object: 'Object Repository/EPD/UI/Page_EPD online/a_Open EPD' is clicked on
+
+2018-03-18 12:57:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/EPD/UI/Page_EPD online/a_Overzicht patienten' is clicked on
+
+2018-03-18 12:57:40 - [MESSAGE][PASSED] - Object: 'Object Repository/EPD/UI/Page_EPD online/a_Overzicht patienten' is clicked on
+
+2018-03-18 12:57:40 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/EPD/Components/UI/VerifieerPatient' successfully
+
+2018-03-18 12:57:40 - [TEST_CASE][PASSED] - Test Cases/EPD/Components/UI/VerifieerPatient: Test Cases/EPD/Components/UI/VerifieerPatient
+
+2018-03-18 12:57:40 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'de Tester' is present on page 
+
+2018-03-18 12:57:41 - [MESSAGE][PASSED] - Text 'de Tester' is present on page 
+
+2018-03-18 12:57:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/EPD/Components/UI/VerifieerPatient' successfully
+
+2018-03-18 12:57:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/EPD/UI/Page_EPD online (1)/a_Details' is clicked on
+
+2018-03-18 12:57:41 - [MESSAGE][PASSED] - Object: 'Object Repository/EPD/UI/Page_EPD online (1)/a_Details' is clicked on
+
+2018-03-18 12:57:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/EPD/UI/Page_EPD online (1)/a_Behandeling toevoegen' is clicked on
+
+2018-03-18 12:57:41 - [MESSAGE][PASSED] - Object: 'Object Repository/EPD/UI/Page_EPD online (1)/a_Behandeling toevoegen' is clicked on
+
+2018-03-18 12:57:41 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/EPD/Components/UI/VoegBehandelingToe' (Root cause: Call Test Case 'Test Cases/EPD/Components/UI/VoegBehandelingToe' failed)
+
+2018-03-18 12:57:41 - [TEST_CASE][FAILED] - Test Cases/EPD/Components/UI/VoegBehandelingToe: Test Cases/EPD/Components/UI/VoegBehandelingToe FAILED because (of) Unable to set text 'null' of object 'Object Repository/EPD/UI/Page_EPD online (1)/input_treatmenttreated_by' (Root cause: java.lang.IllegalArgumentException: Text is null)
+
+2018-03-18 12:57:41 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '18' are selected in object 'Object Repository/EPD/UI/Page_EPD online (1)/select_12345678910111213141516'  using regular expression
+
+2018-03-18 12:57:42 - [MESSAGE][PASSED] - All options with value '18' are selected in object 'Object Repository/EPD/UI/Page_EPD online (1)/select_12345678910111213141516'  using regular expression
+
+2018-03-18 12:57:42 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '6' are selected in object 'Object Repository/EPD/UI/Page_EPD online (1)/select_JanuaryFebruaryMarchApr'  using regular expression
+
+2018-03-18 12:57:43 - [MESSAGE][PASSED] - All options with value '6' are selected in object 'Object Repository/EPD/UI/Page_EPD online (1)/select_JanuaryFebruaryMarchApr'  using regular expression
+
+2018-03-18 12:57:43 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2020' are selected in object 'Object Repository/EPD/UI/Page_EPD online (1)/select_20162017201820192020202'  using regular expression
+
+2018-03-18 12:57:43 - [MESSAGE][PASSED] - All options with value '2020' are selected in object 'Object Repository/EPD/UI/Page_EPD online (1)/select_20162017201820192020202'  using regular expression
+
+2018-03-18 12:57:43 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Opname' are selected in object 'Object Repository/EPD/UI/Page_EPD online (1)/select_PoliklinischOpname'  using regular expression
+
+2018-03-18 12:57:43 - [MESSAGE][PASSED] - All options with value 'Opname' are selected in object 'Object Repository/EPD/UI/Page_EPD online (1)/select_PoliklinischOpname'  using regular expression
+
+2018-03-18 12:57:43 - [TEST_STEP][FAILED] - setText: Unable to set text 'null' of object 'Object Repository/EPD/UI/Page_EPD online (1)/input_treatmenttreated_by' (Root cause: java.lang.IllegalArgumentException: Text is null)
+
+2018-03-18 12:57:44 - [MESSAGE][FAILED] - Unable to set text 'null' of object 'Object Repository/EPD/UI/Page_EPD online (1)/input_treatmenttreated_by' (Root cause: java.lang.IllegalArgumentException: Text is null)
+[[ATTACHMENT|C:\\Users\\mslin\\katalonstudio\\sampleWeb\\Reports\\TS_DemoEPD\\20180318_125723\\1521374264007.png]]
+
+2018-03-18 12:57:44 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/EPD/Components/UI/VoegBehandelingToe' (Root cause: Call Test Case 'Test Cases/EPD/Components/UI/VoegBehandelingToe' failed)]]></system-out>
+         <system-err><![CDATA[2018-03-18 12:57:34 - [TEST_CASE][FAILED] - Test Cases/EPD/Test Cases/TC_MaakPatientAan_ControleerPatient_VoegBehandelingToe_VerwijderPatient: Test Cases/EPD/Test Cases/TC_MaakPatientAan_ControleerPatient_VoegBehandelingToe_VerwijderPatient FAILED because (of) Unable to set text 'null' of object 'Object Repository/EPD/UI/Page_EPD online (1)/input_treatmenttreated_by' (Root cause: java.lang.IllegalArgumentException: Text is null)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/EPD/Test Cases/TC_MaakPatientAan_ControleerPatient_VoegBehandelingToe_VerwijderPatient" classname="Test Cases/EPD/Test Cases/TC_MaakPatientAan_ControleerPatient_VoegBehandelingToe_VerwijderPatient" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'null' of object 'Object Repository/EPD/UI/Page_EPD online (1)/input_treatmenttreated_by' (Root cause: java.lang.IllegalArgumentException: Text is null)"/>
+         <system-out><![CDATA[2018-03-18 12:57:44 - [TEST_CASE][FAILED] - Test Cases/EPD/Test Cases/TC_MaakPatientAan_ControleerPatient_VoegBehandelingToe_VerwijderPatient: Test Cases/EPD/Test Cases/TC_MaakPatientAan_ControleerPatient_VoegBehandelingToe_VerwijderPatient FAILED because (of) Unable to set text 'null' of object 'Object Repository/EPD/UI/Page_EPD online (1)/input_treatmenttreated_by' (Root cause: java.lang.IllegalArgumentException: Text is null)
+
+2018-03-18 12:57:44 - [TEST_STEP][PASSED] - Statement - behandelaar = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2018-03-18 12:57:44 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/EPD/Components/Rest/MaakPatientAanVoorZiekenhuisA' successfully
+
+2018-03-18 12:57:44 - [TEST_CASE][PASSED] - Test Cases/EPD/Components/Rest/MaakPatientAanVoorZiekenhuisA: Test Cases/EPD/Components/Rest/MaakPatientAanVoorZiekenhuisA
+
+2018-03-18 12:57:44 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(EPD/Rest/REST_postPatientDeTesterForHospitalA)): Send request successfully
+
+2018-03-18 12:57:44 - [MESSAGE][PASSED] - Send request successfully
+
+2018-03-18 12:57:44 - [TEST_STEP][PASSED] - Statement - println(response): null
+
+2018-03-18 12:57:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/EPD/Components/Rest/MaakPatientAanVoorZiekenhuisA' successfully
+
+2018-03-18 12:57:44 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/EPD/Components/UI/StartBrowser' successfully
+
+2018-03-18 12:57:44 - [TEST_CASE][PASSED] - Test Cases/EPD/Components/UI/StartBrowser: Test Cases/EPD/Components/UI/StartBrowser
+
+2018-03-18 12:57:44 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://epdonline.herokuapp.com/'
+
+2018-03-18 12:57:44 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-03-18 12:57:48 - [MESSAGE][PASSED] - Browser is opened with url: 'https://epdonline.herokuapp.com/'
+
+2018-03-18 12:57:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/EPD/Components/UI/StartBrowser' successfully
+
+2018-03-18 12:57:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/EPD/UI/Page_EPD online/a_Open EPD' is clicked on
+
+2018-03-18 12:57:48 - [MESSAGE][PASSED] - Object: 'Object Repository/EPD/UI/Page_EPD online/a_Open EPD' is clicked on
+
+2018-03-18 12:57:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/EPD/UI/Page_EPD online/a_Overzicht patienten' is clicked on
+
+2018-03-18 12:57:49 - [MESSAGE][PASSED] - Object: 'Object Repository/EPD/UI/Page_EPD online/a_Overzicht patienten' is clicked on
+
+2018-03-18 12:57:49 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/EPD/Components/UI/VerifieerPatient' successfully
+
+2018-03-18 12:57:49 - [TEST_CASE][PASSED] - Test Cases/EPD/Components/UI/VerifieerPatient: Test Cases/EPD/Components/UI/VerifieerPatient
+
+2018-03-18 12:57:49 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'de Tester' is present on page 
+
+2018-03-18 12:57:49 - [MESSAGE][PASSED] - Text 'de Tester' is present on page 
+
+2018-03-18 12:57:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/EPD/Components/UI/VerifieerPatient' successfully
+
+2018-03-18 12:57:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/EPD/UI/Page_EPD online (1)/a_Details' is clicked on
+
+2018-03-18 12:57:49 - [MESSAGE][PASSED] - Object: 'Object Repository/EPD/UI/Page_EPD online (1)/a_Details' is clicked on
+
+2018-03-18 12:57:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/EPD/UI/Page_EPD online (1)/a_Behandeling toevoegen' is clicked on
+
+2018-03-18 12:57:49 - [MESSAGE][PASSED] - Object: 'Object Repository/EPD/UI/Page_EPD online (1)/a_Behandeling toevoegen' is clicked on
+
+2018-03-18 12:57:49 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/EPD/Components/UI/VoegBehandelingToe' (Root cause: Call Test Case 'Test Cases/EPD/Components/UI/VoegBehandelingToe' failed)
+
+2018-03-18 12:57:49 - [TEST_CASE][FAILED] - Test Cases/EPD/Components/UI/VoegBehandelingToe: Test Cases/EPD/Components/UI/VoegBehandelingToe FAILED because (of) Unable to set text 'null' of object 'Object Repository/EPD/UI/Page_EPD online (1)/input_treatmenttreated_by' (Root cause: java.lang.IllegalArgumentException: Text is null)
+
+2018-03-18 12:57:49 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '19' are selected in object 'Object Repository/EPD/UI/Page_EPD online (1)/select_12345678910111213141516'  using regular expression
+
+2018-03-18 12:57:51 - [MESSAGE][PASSED] - All options with value '19' are selected in object 'Object Repository/EPD/UI/Page_EPD online (1)/select_12345678910111213141516'  using regular expression
+
+2018-03-18 12:57:51 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '7' are selected in object 'Object Repository/EPD/UI/Page_EPD online (1)/select_JanuaryFebruaryMarchApr'  using regular expression
+
+2018-03-18 12:57:51 - [MESSAGE][PASSED] - All options with value '7' are selected in object 'Object Repository/EPD/UI/Page_EPD online (1)/select_JanuaryFebruaryMarchApr'  using regular expression
+
+2018-03-18 12:57:51 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2021' are selected in object 'Object Repository/EPD/UI/Page_EPD online (1)/select_20162017201820192020202'  using regular expression
+
+2018-03-18 12:57:52 - [MESSAGE][PASSED] - All options with value '2021' are selected in object 'Object Repository/EPD/UI/Page_EPD online (1)/select_20162017201820192020202'  using regular expression
+
+2018-03-18 12:57:52 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Opname' are selected in object 'Object Repository/EPD/UI/Page_EPD online (1)/select_PoliklinischOpname'  using regular expression
+
+2018-03-18 12:57:52 - [MESSAGE][PASSED] - All options with value 'Opname' are selected in object 'Object Repository/EPD/UI/Page_EPD online (1)/select_PoliklinischOpname'  using regular expression
+
+2018-03-18 12:57:52 - [TEST_STEP][FAILED] - setText: Unable to set text 'null' of object 'Object Repository/EPD/UI/Page_EPD online (1)/input_treatmenttreated_by' (Root cause: java.lang.IllegalArgumentException: Text is null)
+
+2018-03-18 12:57:52 - [MESSAGE][FAILED] - Unable to set text 'null' of object 'Object Repository/EPD/UI/Page_EPD online (1)/input_treatmenttreated_by' (Root cause: java.lang.IllegalArgumentException: Text is null)
+[[ATTACHMENT|C:\\Users\\mslin\\katalonstudio\\sampleWeb\\Reports\\TS_DemoEPD\\20180318_125723\\1521374272425.png]]
+
+2018-03-18 12:57:52 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/EPD/Components/UI/VoegBehandelingToe' (Root cause: Call Test Case 'Test Cases/EPD/Components/UI/VoegBehandelingToe' failed)]]></system-out>
+         <system-err><![CDATA[2018-03-18 12:57:44 - [TEST_CASE][FAILED] - Test Cases/EPD/Test Cases/TC_MaakPatientAan_ControleerPatient_VoegBehandelingToe_VerwijderPatient: Test Cases/EPD/Test Cases/TC_MaakPatientAan_ControleerPatient_VoegBehandelingToe_VerwijderPatient FAILED because (of) Unable to set text 'null' of object 'Object Repository/EPD/UI/Page_EPD online (1)/input_treatmenttreated_by' (Root cause: java.lang.IllegalArgumentException: Text is null)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-18 12:57:34 - [TEST_SUITE][FAILED] - TS_DemoEPD: Test Cases/EPD/Test Cases/TC_MaakPatientAan_ControleerPatient_VoegBehandelingToe_VerwijderPatient FAILED because (of) Unable to set text 'null' of object 'Object Repository/EPD/UI/Page_EPD online (1)/input_treatmenttreated_by' (Root cause: java.lang.IllegalArgumentException: Text is null)]]></system-out>
+      <system-err><![CDATA[2018-03-18 12:57:34 - [TEST_SUITE][FAILED] - TS_DemoEPD: Test Cases/EPD/Test Cases/TC_MaakPatientAan_ControleerPatient_VoegBehandelingToe_VerwijderPatient FAILED because (of) Unable to set text 'null' of object 'Object Repository/EPD/UI/Page_EPD online (1)/input_treatmenttreated_by' (Root cause: java.lang.IllegalArgumentException: Text is null)]]></system-err>
+   </testsuite>
+</testsuites>

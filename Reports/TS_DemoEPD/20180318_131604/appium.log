@@ -1,0 +1,17 @@
+[Appium] Welcome to Appium v1.7.2
+[Appium] Non-default server args:
+[Appium]   port: 11012
+[Appium]   loglevel: info
+[Appium]   chromeDriverPort: 11013
+[Appium]   tmpDir: C:\Users\mslin\AppData\Local\Temp\\Katalon\Appium\Temp1521375379577
+[Appium] Appium REST http interface listener started on 0.0.0.0:11012
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 57 ms - 72 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"browserName":"Chrome","newCommandTimeout":1800,"platform":"ANDROID","platformName":"Android"},"capabilities":{"desiredCapabilities":{"browserName":"Chrome","newCommandTimeout":1800,"platform":"ANDROID","platformName":"Android"},"firstMatch":[{"browserName":"Chrome","platformName":"android"}]}}
+[Appium] Merged W3C capabilities {"desiredCapabilities":{"browserName":"Chrome",... into desiredCapabilities object {"browserName":"Chrome","newCommandTimeout":180...
+[Appium] Creating new AndroidDriver (v1.37.0) session
+[Appium] Capabilities:
+[Appium]   browserName: Chrome
+[Appium]   newCommandTimeout: 1800
+[Appium]   platform: ANDROID
+[Appium]   platformName: android

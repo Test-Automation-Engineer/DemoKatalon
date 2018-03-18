@@ -17,4 +17,9 @@
       <initValue>5</initValue>
       <name>G_ShortTimeOut</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://epdonline.herokuapp.com/'</initValue>
+      <name>G_EpdUrl</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

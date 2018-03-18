@@ -4,7 +4,7 @@
    <name>TS_DemoEPD</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-03-15T21:48:53</lastRun>
+   <lastRun>2018-03-18T13:40:04</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -20,8 +20,8 @@
          <combinationType>ONE</combinationType>
          <id>beaadb61-7d8a-4fb9-af4e-8bfae88131f0</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
          </iterationEntity>
          <testDataId>Data Files/Testdata_Behandeling</testDataId>
       </testDataLink>

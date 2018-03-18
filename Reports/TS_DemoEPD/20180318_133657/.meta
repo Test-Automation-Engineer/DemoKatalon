@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportEntity>
+   <description></description>
+   <name>20180318_133657</name>
+   <tag></tag>
+   <displayName>20180318_133657</displayName>
+   <reportTestCases>
+      <testCaseId>Test Cases/EPD/Test Cases/TC_MaakPatientAan_ControleerPatient_VoegBehandelingToe_VerwijderPatient</testCaseId>
+      <testCaseName>TC_MaakPatientAan_ControleerPatient_VoegBehandelingToe_VerwijderPatient</testCaseName>
+      <videoLocation></videoLocation>
+   </reportTestCases>
+   <reportTestCases>
+      <testCaseId>Test Cases/EPD/Test Cases/TC_MaakPatientAan_ControleerPatient_VoegBehandelingToe_VerwijderPatient</testCaseId>
+      <testCaseName>TC_MaakPatientAan_ControleerPatient_VoegBehandelingToe_VerwijderPatient - Iteration 1</testCaseName>
+      <videoLocation></videoLocation>
+   </reportTestCases>
+</ReportEntity>

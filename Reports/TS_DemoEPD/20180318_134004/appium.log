@@ -1,0 +1,1738 @@
+[Appium] Welcome to Appium v1.7.2
+[Appium] Non-default server args:
+[Appium]   port: 7315
+[Appium]   loglevel: info
+[Appium]   chromeDriverPort: 7316
+[Appium]   tmpDir: C:\Users\mslin\AppData\Local\Temp\\Katalon\Appium\Temp1521376813176
+[Appium] Appium REST http interface listener started on 0.0.0.0:7315
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 44 ms - 72 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"browserName":"Chrome","deviceId":"1ca69abf","deviceName":"samsung SM-G900F (Android 7.1.2)","newCommandTimeout":1800,"platform":"ANDROID","platformName":"Android","udid":"1ca69abf"},"capabilities":{"desiredCapabilities":{"browserName":"Chrome","deviceId":"1ca69abf","deviceName":"samsung SM-G900F (Android 7.1.2)","newCommandTimeout":1800,"platform":"ANDROID","platformName":"Android","udid":"1ca69abf"},"firstMatch":[{"browserName":"Chrome","platformName":"android"}]}}
+[Appium] Merged W3C capabilities {"desiredCapabilities":{"browserName":"Chrome",... into desiredCapabilities object {"browserName":"Chrome","deviceId":"1ca69abf","...
+[Appium] Creating new AndroidDriver (v1.37.0) session
+[Appium] Capabilities:
+[Appium]   browserName: Chrome
+[Appium]   deviceId: 1ca69abf
+[Appium]   deviceName: samsung SM-G900F (Android 7.1.2)
+[Appium]   newCommandTimeout: 1800
+[Appium]   platform: ANDROID
+[Appium]   platformName: android
+[Appium]   udid: 1ca69abf
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: deviceId, platform.
+[BaseDriver] Session created with session id: d9144474-8ab5-4ec2-b49c-df1f021555e3
+[AndroidDriver] Java version is: 1.8.0_102
+[AndroidDriver] We're going to run a Chrome-based session
+[AndroidDriver] Chrome-type package and activity are com.android.chrome and com.google.android.apps.chrome.Main
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from C:\Users\mslin\.katalon\tools\android_sdk\platform-tools\adb.exe
+[AndroidDriver] Retrieving device list
+[AndroidDriver] Using device: 1ca69abf
+[ADB] Checking whether adb is present
+[AndroidDriver] App file was not listed, instead we're going to run com.android.chrome directly on the device
+[AndroidDriver] Starting Android session
+[AndroidDriver] setDeviceLanguageCountry requires language or country.
+[AndroidDriver] Got language: 'null' and country: 'null'
+[ADB] Checking whether aapt is present
+[ADB] Using aapt.exe from C:\Users\mslin\.katalon\tools\android_sdk\build-tools\28.0.0\aapt.exe
+[ADB] Checking whether aapt is present
+[ADB] Getting device platform version
+[AndroidDriver] No app sent in, not parsing package/activity
+[ADB] No uiautomator process found to kill, continuing...
+[AndroidBootstrap] Android bootstrap socket is now connected
+[AndroidDriver] Screen already unlocked, doing nothing
+[AndroidDriver] Starting a chrome-based browser session
+[Chromedriver] Set chromedriver binary as: C:\Users\mslin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-chromedriver\chromedriver\win\chromedriver.exe
+[Chromedriver] No old chromedrivers seemed to exist
+[Chromedriver] Spawning chromedriver with: C:\Users\mslin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-chromedriver\chromedriver\win\chromedriver.exe --url-base=wd/hub --port=7316 --adb-port=5037 --verbose
+[Appium] New AndroidDriver session created successfully, session d9144474-8ab5-4ec2-b49c-df1f021555e3 added to master session list
+[HTTP] <-- POST /wd/hub/session 200 22568 ms - 737 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 50 ms - 83 
+[HTTP] --> POST /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/timeouts {"type":"implicit","ms":30000}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- POST /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/timeouts 200 12 ms - 76 
+[HTTP] --> POST /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/timeouts {"type":"implicit","ms":0}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- POST /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/timeouts 200 8 ms - 76 
+[HTTP] --> POST /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/execute {"script":"return navigator.sayswho= (function() { var ua= navigator.userAgent, tem, M= ua.match(/(opera|chrome|safari|firefox|msie|trident)\\/?\\s*(\\.?\\d+(\\.\\d+)*)/i) || []; if (/trident/i.test(M[1])) {     tem=  /\\brv[ :]+(\\d+)/g.exec(ua) || [];     return 'IE '+(tem[1] || ''); } if(M[1]=== 'Chrome') {     tem= ua.match(/\b(OPR|Edge)\\/(\\d+)/);     if(tem!= null) return tem.slice(1).join(' ').replace('OPR', 'Opera'); } M= M[2]? [M[1], M[2]]: [navigator.appName, navigator.appVersion, '-?']; if((tem= ua.match(/version\\/(\\d+)/i))!= null) M.splice(1, 1, tem[1]); return M.join(' ').replace('MSIE', 'IE');})();","args":[]}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- POST /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/execute 200 69 ms - 94 
+[HTTP] --> POST /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/url {"url":"https://epdonline.herokuapp.com/"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- POST /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/url 200 706 ms - 76 
+[HTTP] --> POST /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/elements {"using":"xpath","value":"//a[@href = '/site/menu?hospital=A' and (text() = 'Open EPD\n\n' or . = 'Open EPD\n\n')]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- POST /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/elements 200 57 ms - 108 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> POST /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-1/click {"id":"0.6656149403597631-1"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- POST /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-1/click 200 232 ms - 76 
+[HTTP] --> POST /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/elements {"using":"xpath","value":"//a[@href = '/patients?hospital=A' and (text() = 'Overzicht patienten\n\n' or . = 'Overzicht patienten\n\n')]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- POST /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/elements 200 57 ms - 74 
+[HTTP] --> POST /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/elements {"using":"xpath","value":"//a[@href = '/patients?hospital=A' and (text() = 'Overzicht patienten\n\n' or . = 'Overzicht patienten\n\n')]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- POST /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/elements 200 52 ms - 108 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 8 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> POST /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-2/click {"id":"0.6656149403597631-2"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- POST /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-2/click 200 337 ms - 76 
+[HTTP] --> POST /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element {"using":"tag name","value":"body"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- POST /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element 200 61 ms - 106 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 5 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-3/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-3/text 200 283 ms - 550 
+[HTTP] --> POST /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/elements {"using":"xpath","value":"//a[(text() = 'Details' or . = 'Details')]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- POST /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/elements 200 83 ms - 248 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 5 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 5 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 6 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 5 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 5 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 5 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 5 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 5 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 5 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> POST /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-4/click {"id":"0.6656149403597631-4"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- POST /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-4/click 200 536 ms - 76 
+[HTTP] --> POST /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/elements {"using":"xpath","value":"//a[(text() = 'Behandeling toevoegen' or . = 'Behandeling toevoegen')]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- POST /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/elements 200 46 ms - 74 
+[HTTP] --> POST /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/elements {"using":"xpath","value":"//a[(text() = 'Behandeling toevoegen' or . = 'Behandeling toevoegen')]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- POST /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/elements 200 27 ms - 74 
+[HTTP] --> POST /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/elements {"using":"xpath","value":"//a[(text() = 'Behandeling toevoegen' or . = 'Behandeling toevoegen')]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- POST /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/elements 200 113 ms - 74 
+[HTTP] --> POST /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/elements {"using":"xpath","value":"//a[(text() = 'Behandeling toevoegen' or . = 'Behandeling toevoegen')]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- POST /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/elements 200 89 ms - 108 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> POST /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-9/click {"id":"0.6656149403597631-9"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- POST /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-9/click 200 393 ms - 76 
+[HTTP] --> POST /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/elements {"using":"xpath","value":"//select[@id = 'treatment_treatment_date_3i' and @name = 'treatment[treatment_date(3i)]' and (text() = '\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n' or . = '\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n')]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- POST /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/elements 200 64 ms - 109 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-10/name {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-10/name 200 27 ms - 80 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-10/attribute/multiple {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-10/attribute/multiple 200 25 ms - 76 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-10/name {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-10/name 200 113 ms - 80 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-10/attribute/multiple {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-10/attribute/multiple 200 66 ms - 76 
+[HTTP] --> POST /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-10/elements {"id":"0.6656149403597631-10","using":"tag name","value":"option"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- POST /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-10/elements 200 117 ms - 1189 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 5 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 5 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 5 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 50 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-11/attribute/value {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-11/attribute/value 200 77 ms - 75 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-12/attribute/value {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-12/attribute/value 200 64 ms - 75 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-13/attribute/value {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-13/attribute/value 200 37 ms - 75 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-14/attribute/value {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-14/attribute/value 200 37 ms - 75 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-15/attribute/value {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-15/attribute/value 200 42 ms - 75 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-16/attribute/value {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-16/attribute/value 200 71 ms - 75 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-17/attribute/value {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-17/attribute/value 200 56 ms - 75 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-18/attribute/value {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-18/attribute/value 200 54 ms - 75 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-19/attribute/value {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-19/attribute/value 200 73 ms - 75 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-20/attribute/value {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-20/attribute/value 200 77 ms - 76 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-21/attribute/value {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-21/attribute/value 200 43 ms - 76 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-22/attribute/value {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-22/attribute/value 200 66 ms - 76 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-23/attribute/value {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-23/attribute/value 200 62 ms - 76 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-24/attribute/value {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-24/attribute/value 200 36 ms - 76 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-25/attribute/value {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-25/attribute/value 200 26 ms - 76 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-26/attribute/value {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-26/attribute/value 200 24 ms - 76 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-27/attribute/value {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-27/attribute/value 200 32 ms - 76 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-28/attribute/value {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-28/attribute/value 200 64 ms - 76 
+[HTTP] --> POST /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-10/elements {"id":"0.6656149403597631-10","using":"tag name","value":"option"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- POST /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-10/elements 200 64 ms - 1189 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 5 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 5 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 6 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 5 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 5 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 5 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 2 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 2 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 2 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 2 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 2 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 2 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-11/attribute/index {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-11/attribute/index 200 40 ms - 75 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-12/attribute/index {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-12/attribute/index 200 42 ms - 75 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-13/attribute/index {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-13/attribute/index 200 48 ms - 75 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-14/attribute/index {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-14/attribute/index 200 42 ms - 75 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-15/attribute/index {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-15/attribute/index 200 55 ms - 75 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-16/attribute/index {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-16/attribute/index 200 75 ms - 75 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-17/attribute/index {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-17/attribute/index 200 89 ms - 75 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-18/attribute/index {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-18/attribute/index 200 51 ms - 75 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-19/attribute/index {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-19/attribute/index 200 72 ms - 75 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-20/attribute/index {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-20/attribute/index 200 66 ms - 75 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-21/attribute/index {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-21/attribute/index 200 104 ms - 76 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-22/attribute/index {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-22/attribute/index 200 95 ms - 76 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-23/attribute/index {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-23/attribute/index 200 81 ms - 76 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-24/attribute/index {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-24/attribute/index 200 78 ms - 76 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-25/attribute/index {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-25/attribute/index 200 44 ms - 76 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-26/attribute/index {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-26/attribute/index 200 93 ms - 76 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-27/attribute/index {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-27/attribute/index 200 82 ms - 76 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-28/attribute/index {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-28/attribute/index 200 31 ms - 76 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-28/selected {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-28/selected 200 87 ms - 76 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-29/attribute/value {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-29/attribute/value 200 53 ms - 76 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-30/attribute/value {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-30/attribute/value 200 51 ms - 76 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-31/attribute/value {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-31/attribute/value 200 59 ms - 76 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-32/attribute/value {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-32/attribute/value 200 62 ms - 76 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-33/attribute/value {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-33/attribute/value 200 50 ms - 76 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-34/attribute/value {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-34/attribute/value 200 71 ms - 76 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-35/attribute/value {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-35/attribute/value 200 31 ms - 76 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-36/attribute/value {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-36/attribute/value 200 35 ms - 76 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-37/attribute/value {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-37/attribute/value 200 32 ms - 76 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-38/attribute/value {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-38/attribute/value 200 50 ms - 76 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-39/attribute/value {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-39/attribute/value 200 37 ms - 76 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-40/attribute/value {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-40/attribute/value 200 54 ms - 76 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-41/attribute/value {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-41/attribute/value 200 42 ms - 76 
+[HTTP] --> POST /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/elements {"using":"xpath","value":"//select[@id = 'treatment_treatment_date_2i' and @name = 'treatment[treatment_date(2i)]' and (text() = '\nJanuary\nFebruary\nMarch\nApril\nMay\nJune\nJuly\nAugust\nSeptember\nOctober\nNovember\nDecember\n' or . = '\nJanuary\nFebruary\nMarch\nApril\nMay\nJune\nJuly\nAugust\nSeptember\nOctober\nNovember\nDecember\n')]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- POST /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/elements 200 90 ms - 109 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-42/name {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-42/name 200 55 ms - 80 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-42/attribute/multiple {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-42/attribute/multiple 200 35 ms - 76 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-42/name {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-42/name 200 26 ms - 80 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-42/attribute/multiple {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-42/attribute/multiple 200 37 ms - 76 
+[HTTP] --> POST /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-42/elements {"id":"0.6656149403597631-42","using":"tag name","value":"option"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- POST /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-42/elements 200 86 ms - 505 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 7 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 5 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-43/attribute/value {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-43/attribute/value 200 68 ms - 75 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-44/attribute/value {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-44/attribute/value 200 37 ms - 75 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-45/attribute/value {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-45/attribute/value 200 32 ms - 75 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-46/attribute/value {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-46/attribute/value 200 33 ms - 75 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-47/attribute/value {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-47/attribute/value 200 39 ms - 75 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-48/attribute/value {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-48/attribute/value 200 64 ms - 75 
+[HTTP] --> POST /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-42/elements {"id":"0.6656149403597631-42","using":"tag name","value":"option"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- POST /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-42/elements 200 76 ms - 505 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 8 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 5 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 4 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3 ms - 691 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-43/attribute/index {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-43/attribute/index 200 86 ms - 75 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-44/attribute/index {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-44/attribute/index 200 83 ms - 75 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-45/attribute/index {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-45/attribute/index 200 42 ms - 75 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-46/attribute/index {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-46/attribute/index 200 43 ms - 75 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-47/attribute/index {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-47/attribute/index 200 35 ms - 75 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-48/attribute/index {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-48/attribute/index 200 53 ms - 75 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-48/selected {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-48/selected 200 83 ms - 77 
+[HTTP] --> POST /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-48/click {"id":"0.6656149403597631-48"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- POST /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/element/0.6656149403597631-48/click 200 222 ms - 302 
+[HTTP] --> GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/screenshot {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 862a034812bec7be33283f6bc3d57328 with d9144474-8ab5-4ec2-b49c-df1f021555e3
+[HTTP] <-- GET /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3/screenshot 200 571 ms - 118774 
+[HTTP] --> DELETE /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 {}
+[Appium] Removing session d9144474-8ab5-4ec2-b49c-df1f021555e3 from our master session list
+[ADB] No uiautomator process found to kill, continuing...
+[HTTP] <-- DELETE /wd/hub/session/d9144474-8ab5-4ec2-b49c-df1f021555e3 200 3674 ms - 76 

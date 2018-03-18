@@ -1,0 +1,36 @@
+1
+00:00:04,268 --> 00:00:04,272
+1. Statement - behandelaar = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+
+2
+00:00:04,274 --> 00:00:04,299
+2. callTestCase
+
+3
+00:00:04,299 --> 00:00:04,328
+3. callTestCase
+
+4
+00:00:04,328 --> 00:00:04,342
+4. click
+
+5
+00:00:04,342 --> 00:00:04,354
+5. click
+
+6
+00:00:04,354 --> 00:00:04,374
+6. callTestCase
+
+7
+00:00:04,375 --> 00:00:04,390
+7. click
+
+8
+00:00:04,390 --> 00:00:04,581
+8. click
+
+9
+00:00:04,582 --> 00:00:07,183
+9. callTestCase
+

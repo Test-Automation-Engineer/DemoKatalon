@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_DemoEPD,Chrome 65.0.3325.162,,2018-03-18 12:57:34,2018-03-18 12:57:53,"18,780s",FAILED
+,,,,,,
+Test Cases/EPD/Test Cases/TC_MaakPatientAan_ControleerPatient_VoegBehandelingToe_VerwijderPatient,Chrome 65.0.3325.162,,2018-03-18 12:57:34,2018-03-18 12:57:44,"9,408s",FAILED
+Statement - behandelaar = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 65.0.3325.162,,2018-03-18 12:57:35,2018-03-18 12:57:35,"0,001s",PASSED
+callTestCase,Chrome 65.0.3325.162,,2018-03-18 12:57:35,2018-03-18 12:57:36,"1,277s",PASSED
+callTestCase,Chrome 65.0.3325.162,,2018-03-18 12:57:36,2018-03-18 12:57:40,"3,595s",PASSED
+click,Chrome 65.0.3325.162,,2018-03-18 12:57:40,2018-03-18 12:57:40,"0,120s",PASSED
+click,Chrome 65.0.3325.162,,2018-03-18 12:57:40,2018-03-18 12:57:40,"0,597s",PASSED
+callTestCase,Chrome 65.0.3325.162,,2018-03-18 12:57:40,2018-03-18 12:57:41,"0,260s",PASSED
+click,Chrome 65.0.3325.162,,2018-03-18 12:57:41,2018-03-18 12:57:41,"0,111s",PASSED
+click,Chrome 65.0.3325.162,,2018-03-18 12:57:41,2018-03-18 12:57:41,"0,588s",PASSED
+callTestCase,Chrome 65.0.3325.162,,2018-03-18 12:57:41,2018-03-18 12:57:44,"2,595s",FAILED
+,,,,,,
+Test Cases/EPD/Test Cases/TC_MaakPatientAan_ControleerPatient_VoegBehandelingToe_VerwijderPatient,Chrome 65.0.3325.162,,2018-03-18 12:57:44,2018-03-18 12:57:52,"8,403s",FAILED
+Statement - behandelaar = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 65.0.3325.162,,2018-03-18 12:57:44,2018-03-18 12:57:44,"0,001s",PASSED
+callTestCase,Chrome 65.0.3325.162,,2018-03-18 12:57:44,2018-03-18 12:57:44,"0,263s",PASSED
+callTestCase,Chrome 65.0.3325.162,,2018-03-18 12:57:44,2018-03-18 12:57:48,"3,639s",PASSED
+click,Chrome 65.0.3325.162,,2018-03-18 12:57:48,2018-03-18 12:57:48,"0,105s",PASSED
+click,Chrome 65.0.3325.162,,2018-03-18 12:57:48,2018-03-18 12:57:49,"0,650s",PASSED
+callTestCase,Chrome 65.0.3325.162,,2018-03-18 12:57:49,2018-03-18 12:57:49,"0,126s",PASSED
+click,Chrome 65.0.3325.162,,2018-03-18 12:57:49,2018-03-18 12:57:49,"0,133s",PASSED
+click,Chrome 65.0.3325.162,,2018-03-18 12:57:49,2018-03-18 12:57:49,"0,650s",PASSED
+callTestCase,Chrome 65.0.3325.162,,2018-03-18 12:57:49,2018-03-18 12:57:52,"2,809s",FAILED
