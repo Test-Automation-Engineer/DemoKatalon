@@ -19,7 +19,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-
 WebUI.callTestCase(findTestCase('EPD/Components/Rest/MaakPatientAanVoorZiekenhuisA'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('EPD/Components/UI/StartBrowser'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -30,21 +29,23 @@ WebUI.click(findTestObject('EPD/UI/Page_EPD online/a_Overzicht patienten'))
 
 WebUI.callTestCase(findTestCase('EPD/Components/UI/VerifieerPatient'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('EPD/UI/Page_EPD online (1)/a_Details'))
+WebUI.click(findTestObject('EPD/UI/Page_EPD online/a_Details'))
 
-WebUI.click(findTestObject('EPD/UI/Page_EPD online (1)/a_Behandeling toevoegen'))
+WebUI.click(findTestObject('EPD/UI/Page_EPD_Patient details/a_Behandeling toevoegen'))
 
 WebUI.callTestCase(findTestCase('EPD/Components/UI/VoegBehandelingToe'), [('behandeling_dag') : behandeling_dag, ('behandeling_maand') : behandeling_maand
         , ('behandeling_jaar') : behandeling_jaar, ('behandelaar') : behandelaar, ('naam_behandeling') : naam_behandeling
         , ('afdeling') : afdeling, ('urgentie') : urgentie, ('type') : type], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('EPD/UI/Page_EPD online (1)/input_commit'))
+WebUI.click(findTestObject('EPD/UI/Page_EPD Toevoegen behandeling/input_commit'))
 
-WebUI.verifyElementPresent(findTestObject('EPD/UI/Page_EPD online (1)/td_Knie operatie'), 0)
+WebUI.verifyElementPresent(findTestObject('EPD/UI/Page_EPD_Patient details/div_Behandeling is successvol'), 0)
 
-WebUI.click(findTestObject('EPD/UI/Page_EPD online (2)/a_Verwijderen (1)'))
+WebUI.click(findTestObject('EPD/UI/Page_EPD_Patient details/a_Verwijderen (1)'))
 
 WebUI.acceptAlert()
+
+WebUI.verifyElementPresent(findTestObject('EPD/UI/Page_EPD_Patient details/div_Patient is succesvol verwi'), 0)
 
 WebUI.callTestCase(findTestCase('EPD/Components/UI/CloseBrowser'), [:], FailureHandling.STOP_ON_FAILURE)
 
