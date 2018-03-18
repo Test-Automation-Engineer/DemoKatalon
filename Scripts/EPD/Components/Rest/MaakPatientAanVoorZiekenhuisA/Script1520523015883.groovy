@@ -21,4 +21,3 @@ import internal.GlobalVariable as GlobalVariable
 
 response = WS.sendRequest(findTestObject('EPD/Rest/REST_postPatientDeTesterForHospitalA'))
 
-println(response)
