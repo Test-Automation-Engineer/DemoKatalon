@@ -20,9 +20,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.testobject.RequestObject as RequestObject
 
-RequestObject request = findTestObject('Rest_EPD/REST_deletePatientDeTesterForHospitalA')
+RequestObject request = findTestObject('EPD/Rest/REST_deletePatientDeTesterForHospitalA')
 
 println(request.getRestParameters())
 
-WS.sendRequest(findTestObject('Rest_EPD/REST_deletePatientDeTesterForHospitalA'))
+WS.sendRequest(findTestObject('EPD/Rest/REST_deletePatientDeTesterForHospitalA'))
 

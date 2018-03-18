@@ -19,19 +19,19 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.selectOptionByValue(findTestObject('Page_EPD online (1)/select_12345678910111213141516'), behandeling_dag, true)
+WebUI.selectOptionByValue(findTestObject('EPD/UI/Page_EPD online (1)/select_12345678910111213141516'), behandeling_dag, true)
 
-WebUI.selectOptionByValue(findTestObject('Page_EPD online (1)/select_JanuaryFebruaryMarchApr'), behandeling_maand, true)
+WebUI.selectOptionByValue(findTestObject('EPD/UI/Page_EPD online (1)/select_JanuaryFebruaryMarchApr'), behandeling_maand, true)
 
-WebUI.selectOptionByValue(findTestObject('Page_EPD online (1)/select_20162017201820192020202'), behandeling_jaar, true)
+WebUI.selectOptionByValue(findTestObject('EPD/UI/Page_EPD online (1)/select_20162017201820192020202'), behandeling_jaar, true)
 
-WebUI.selectOptionByValue(findTestObject('Page_EPD online (1)/select_PoliklinischOpname'), type, true)
+WebUI.selectOptionByValue(findTestObject('EPD/UI/Page_EPD online (1)/select_PoliklinischOpname'), type, true)
 
-WebUI.setText(findTestObject('Page_EPD online (1)/input_treatmenttreated_by'), behandelaar)
+WebUI.setText(findTestObject('EPD/UI/Page_EPD online (1)/input_treatmenttreated_by'), behandelaar)
 
-WebUI.setText(findTestObject('Page_EPD online (1)/input_treatmentname'), naam_behandeling)
+WebUI.setText(findTestObject('EPD/UI/Page_EPD online (1)/input_treatmentname'), naam_behandeling)
 
-WebUI.selectOptionByValue(findTestObject('Page_EPD online (1)/select_RadiologieChirurgieCard'), afdeling, true)
+WebUI.selectOptionByValue(findTestObject('EPD/UI/Page_EPD online (1)/select_RadiologieChirurgieCard'), afdeling, true)
 
-WebUI.selectOptionByValue(findTestObject('Page_EPD online (1)/select_LaagNormaalSpoed'), urgentie, true)
+WebUI.selectOptionByValue(findTestObject('EPD/UI/Page_EPD online (1)/select_LaagNormaalSpoed'), urgentie, true)
 

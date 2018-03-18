@@ -23,25 +23,25 @@ WebUI.callTestCase(findTestCase('EPD/Components/Rest/MaakPatientAanVoorZiekenhui
 
 WebUI.callTestCase(findTestCase('EPD/Components/UI/StartBrowser'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_EPD online/a_Open EPD'))
+WebUI.click(findTestObject('EPD/UI/Page_EPD online/a_Open EPD'))
 
-WebUI.click(findTestObject('Page_EPD online/a_Overzicht patienten'))
+WebUI.click(findTestObject('EPD/UI/Page_EPD online/a_Overzicht patienten'))
 
 WebUI.callTestCase(findTestCase('EPD/Components/UI/VerifieerPatient'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_EPD online (1)/a_Details'))
+WebUI.click(findTestObject('EPD/UI/Page_EPD online (1)/a_Details'))
 
-WebUI.click(findTestObject('Page_EPD online (1)/a_Behandeling toevoegen'))
+WebUI.click(findTestObject('EPD/UI/Page_EPD online (1)/a_Behandeling toevoegen'))
 
 WebUI.callTestCase(findTestCase('EPD/Components/UI/VoegBehandelingToe'), [('behandeling_dag') : behandeling_dag, ('behandeling_maand') : behandeling_maand
         , ('behandeling_jaar') : behandeling_jaar, ('behandelaar') : behandelaar, ('naam_behandeling') : naam_behandeling
         , ('afdeling') : afdeling, ('urgentie') : urgentie, ('type') : type], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_EPD online (1)/input_commit'))
+WebUI.click(findTestObject('EPD/UI/Page_EPD online (1)/input_commit'))
 
-WebUI.verifyElementPresent(findTestObject('Page_EPD online (1)/td_Knie operatie'), 0)
+WebUI.verifyElementPresent(findTestObject('EPD/UI/Page_EPD online (1)/td_Knie operatie'), 0)
 
-WebUI.click(findTestObject('Page_EPD online (2)/a_Verwijderen (1)'))
+WebUI.click(findTestObject('EPD/UI/Page_EPD online (2)/a_Verwijderen (1)'))
 
 WebUI.acceptAlert()
 
