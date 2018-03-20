@@ -4,6 +4,12 @@
    <name>select_20162017201820192020202</name>
    <tag></tag>
    <elementGuidId>fc6ee72f-49cd-4232-b5f8-f53ad4466784</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@id = 'treatment_treatment_date_1i' and @name = 'treatment[treatment_date(1i)]']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -28,7 +34,7 @@
       <value>treatment[treatment_date(1i)]</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

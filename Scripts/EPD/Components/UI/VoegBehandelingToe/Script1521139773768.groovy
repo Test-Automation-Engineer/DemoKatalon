@@ -19,19 +19,23 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.selectOptionByValue(findTestObject('EPD/UI/Page_EPD Toevoegen behandeling/select_12345678910111213141516'), behandeling_dag, true)
+WebUI.selectOptionByValue(findTestObject('EPD/UI/Page_EPD Toevoegen behandeling/select_12345678910111213141516'), behandeling_dag, 
+    false)
 
-WebUI.selectOptionByValue(findTestObject('EPD/UI/Page_EPD Toevoegen behandeling/select_JanuaryFebruaryMarchApr'), behandeling_maand, true)
+WebUI.selectOptionByValue(findTestObject('EPD/UI/Page_EPD Toevoegen behandeling/select_JanuaryFebruaryMarchApr'), behandeling_maand, 
+    false)
 
-WebUI.selectOptionByValue(findTestObject('EPD/UI/Page_EPD Toevoegen behandeling/select_20162017201820192020202'), behandeling_jaar, true)
+WebUI.selectOptionByValue(findTestObject('EPD/UI/Page_EPD Toevoegen behandeling/select_20162017201820192020202'), behandeling_jaar, 
+    false)
 
-WebUI.selectOptionByValue(findTestObject('EPD/UI/Page_EPD Toevoegen behandeling/select_PoliklinischOpname'), type, true)
+WebUI.selectOptionByValue(findTestObject('EPD/UI/Page_EPD Toevoegen behandeling/select_PoliklinischOpname'), type, false)
 
 WebUI.setText(findTestObject('EPD/UI/Page_EPD Toevoegen behandeling/input_treatmenttreated_by'), behandelaar)
 
 WebUI.setText(findTestObject('EPD/UI/Page_EPD Toevoegen behandeling/input_treatmentname'), naam_behandeling)
 
-WebUI.selectOptionByValue(findTestObject('EPD/UI/Page_EPD Toevoegen behandeling/select_RadiologieChirurgieCard'), afdeling, true)
+WebUI.selectOptionByValue(findTestObject('EPD/UI/Page_EPD Toevoegen behandeling/select_RadiologieChirurgieCard'), afdeling, 
+    false)
 
-WebUI.selectOptionByValue(findTestObject('EPD/UI/Page_EPD Toevoegen behandeling/select_LaagNormaalSpoed'), urgentie, true)
+WebUI.selectOptionByValue(findTestObject('EPD/UI/Page_EPD Toevoegen behandeling/select_LaagNormaalSpoed'), urgentie, false)
 

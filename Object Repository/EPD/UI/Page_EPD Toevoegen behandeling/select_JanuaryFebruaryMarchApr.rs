@@ -4,6 +4,12 @@
    <name>select_JanuaryFebruaryMarchApr</name>
    <tag></tag>
    <elementGuidId>a2ac4f0d-7b63-4599-adf2-2acbac4e1abd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@id = 'treatment_treatment_date_2i' and @name = 'treatment[treatment_date(2i)]']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -28,7 +34,7 @@
       <value>treatment[treatment_date(2i)]</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

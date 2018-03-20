@@ -4,6 +4,12 @@
    <name>select_PoliklinischOpname</name>
    <tag></tag>
    <elementGuidId>d5a287ca-6ca5-4b61-b1b3-e4bfe1a23842</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@name = 'treatment[treatment_type]' and @id = 'treatment_treatment_type']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -28,7 +34,7 @@
       <value>treatment_treatment_type</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
