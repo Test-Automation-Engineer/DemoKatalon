@@ -1,63 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>VoegBehandelingToe</name>
+   <name>TC_RestMaakPatientAan_ControleerPatient_VoegBehandelingToe_VerwijderPatient</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>21b61e8d-60e6-4440-91fe-dc545a609ec3</testCaseGuid>
+   <testCaseGuid>b6b85552-d5df-485b-b626-bef692a723c7</testCaseGuid>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'9'</defaultValue>
       <description></description>
-      <id>ac7f8ef0-5da0-4c9e-91a3-5d50f5b9fa0d</id>
+      <id>6ac5bba4-28c4-443e-b2da-d8dc05df3fa3</id>
       <masked>false</masked>
       <name>behandeling_dag</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'4'</defaultValue>
       <description></description>
-      <id>e702da6e-8f40-454b-be9f-fc337d216ca4</id>
+      <id>e2fe139a-68e9-4de3-9bdb-77d188dfc1be</id>
       <masked>false</masked>
       <name>behandeling_maand</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'2018'</defaultValue>
       <description></description>
-      <id>a275ff76-051a-434e-ae16-119e0c6bfd4b</id>
+      <id>87005aae-1eb5-44df-8d98-88dc88743b2b</id>
       <masked>false</masked>
       <name>behandeling_jaar</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'Opname'</defaultValue>
       <description></description>
-      <id>8d13c186-7a09-43fd-85c8-634d57c767f2</id>
+      <id>f625414b-0f48-4353-a995-071b4ae235f3</id>
       <masked>false</masked>
       <name>type</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'Dokter anders'</defaultValue>
       <description></description>
-      <id>8e3294da-50ff-4f7a-9505-5147a011dd66</id>
+      <id>9cb32931-8596-48cb-a7cd-cee00ef4810d</id>
       <masked>false</masked>
       <name>behandelaar</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'Knie operatie'</defaultValue>
       <description></description>
-      <id>31fb2e19-bc81-4db6-9582-87f61d923e48</id>
+      <id>e1944bc7-8fc1-4e5e-b053-81c53ffb391a</id>
       <masked>false</masked>
       <name>naam_behandeling</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'Radiologie'</defaultValue>
       <description></description>
-      <id>2bd9ae42-9ed7-48ec-9dbf-07540e94a56c</id>
+      <id>914f2bad-708e-4a02-82a5-4269cd662875</id>
       <masked>false</masked>
       <name>afdeling</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'Normaal'</defaultValue>
       <description></description>
-      <id>87c6602a-845e-4ba8-ab80-524e1ba8eb77</id>
+      <id>ee8895b5-78df-4ebe-ae39-9d9200336875</id>
       <masked>false</masked>
       <name>urgentie</name>
    </variable>

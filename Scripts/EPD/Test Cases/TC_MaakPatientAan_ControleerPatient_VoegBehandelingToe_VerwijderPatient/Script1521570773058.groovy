@@ -19,17 +19,22 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('EPD/Components/Rest/MaakPatientAanVoorZiekenhuisA'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.callTestCase(findTestCase('EPD/Components/UI/StartBrowser'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('EPD/UI/Page_EPD online/a_Open EPD'))
 
 WebUI.click(findTestObject('EPD/UI/Page_EPD online/a_Overzicht patienten'))
 
-WebUI.callTestCase(findTestCase('EPD/Components/UI/VerifieerPatient'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('EPD/UI/Page_EPD online/a_Patient toevoegen'))
 
-WebUI.click(findTestObject('EPD/UI/Page_EPD online/a_Details'))
+WebUI.callTestCase(findTestCase('EPD/Components/UI/VoegPatientToe'), [('voornaam') : voornaam, ('achternaam') : achternaam, ('bsnnummer') : bsnnummer
+        , ('geboortedatum_dag') : geboortedatum_dag, ('geboortedatum_maand') : geboortedatum_maand, ('geboortedatum_jaar') : geboortedatum_jaar, ('geslacht') : geslacht, ('straat') : straat
+        , ('postcode') : postcode, ('woonplaats') : woonplaats, ('telefoon') : telefoon, ('email') : email, ('zorgverzekeraar') : zorgverzekeraar, ('polisnummer') : polisnummer], 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('EPD/UI/Page_EPD Toevoegen patient/input_commit'))
+
+WebUI.verifyElementPresent(findTestObject('EPD/UI/Page_EPD_Patient details/div_Patient is succesvol aange'), 0)
 
 WebUI.click(findTestObject('EPD/UI/Page_EPD_Patient details/a_Behandeling toevoegen'))
 
@@ -41,7 +46,7 @@ WebUI.click(findTestObject('EPD/UI/Page_EPD Toevoegen behandeling/input_commit')
 
 WebUI.verifyElementPresent(findTestObject('EPD/UI/Page_EPD_Patient details/div_Behandeling is successvol'), 0)
 
-WebUI.click(findTestObject('EPD/UI/Page_EPD_Patient details/a_Verwijderen (1)'))
+WebUI.click(findTestObject('EPD/UI/Page_EPD_Patient details/a_Verwijderen'))
 
 WebUI.acceptAlert()
 

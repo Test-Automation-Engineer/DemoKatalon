@@ -4,7 +4,7 @@
    <name>TS_DemoEPD</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-03-19T22:18:17</lastRun>
+   <lastRun>2018-03-20T20:05:31</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -15,7 +15,7 @@
       <guid>8419c51c-3d8a-41b9-b6ad-18a45ed292a7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/EPD/Test Cases/TC_MaakPatientAan_ControleerPatient_VoegBehandelingToe_VerwijderPatient</testCaseId>
+      <testCaseId>Test Cases/EPD/Test Cases/TC_RestMaakPatientAan_ControleerPatient_VoegBehandelingToe_VerwijderPatient</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>beaadb61-7d8a-4fb9-af4e-8bfae88131f0</id>
@@ -72,6 +72,153 @@
          <type>DATA_COLUMN</type>
          <value>Urgentie</value>
          <variableId>ee8895b5-78df-4ebe-ae39-9d9200336875</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>dd3bf4e3-fe21-4e75-8123-ce9fe2b4ac62</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/EPD/Test Cases/TC_MaakPatientAan_ControleerPatient_VoegBehandelingToe_VerwijderPatient</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>258ab9eb-d367-47dd-9ede-792b1a386753</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Testdata_Patient</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>258ab9eb-d367-47dd-9ede-792b1a386753</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Dag_behandeling</value>
+         <variableId>29b11e64-52cb-4a9d-a4e1-6a5c9209fad4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>258ab9eb-d367-47dd-9ede-792b1a386753</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Maand_behandeling</value>
+         <variableId>ea50cc97-e60e-4314-9c86-77bccdb36fe8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>258ab9eb-d367-47dd-9ede-792b1a386753</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Jaar_behandeling</value>
+         <variableId>6cee32ac-25fe-481e-af9e-41e8666e2835</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>258ab9eb-d367-47dd-9ede-792b1a386753</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Type</value>
+         <variableId>a77c60ac-8ea0-4eac-a717-38854ef6c08b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>258ab9eb-d367-47dd-9ede-792b1a386753</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Behandelaar</value>
+         <variableId>308d1ef8-fed4-44f6-8761-169db9b55c0d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>258ab9eb-d367-47dd-9ede-792b1a386753</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Naam_Behandeling</value>
+         <variableId>f20422c8-b377-405a-9f2c-af64fa99dde6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>258ab9eb-d367-47dd-9ede-792b1a386753</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Afdeling</value>
+         <variableId>d2c39a26-d468-47c3-b9bb-754de8628340</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>258ab9eb-d367-47dd-9ede-792b1a386753</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Urgentie</value>
+         <variableId>fd77546d-23d6-40d6-8230-5f0ec9e232b9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>258ab9eb-d367-47dd-9ede-792b1a386753</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Voornaam</value>
+         <variableId>4b6f8d23-5101-47a9-aeff-aa7dd072f1b8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>258ab9eb-d367-47dd-9ede-792b1a386753</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Achternaam</value>
+         <variableId>c715fb94-a769-4be4-996a-56b69b528f03</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>258ab9eb-d367-47dd-9ede-792b1a386753</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Bsn_nummer</value>
+         <variableId>33cc7082-6d3a-498d-9c0e-4ce0c48b57a5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>258ab9eb-d367-47dd-9ede-792b1a386753</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Geboortedatum_dag</value>
+         <variableId>4cd2a233-f4ff-40c8-8a3e-f9308fa83ee7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>258ab9eb-d367-47dd-9ede-792b1a386753</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Geboortedatum_maand</value>
+         <variableId>e153a49a-2c41-4c20-aeda-bb616ccec4e7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>258ab9eb-d367-47dd-9ede-792b1a386753</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Geboortedatum_jaar</value>
+         <variableId>bae9bed2-e7ce-4139-aef9-fb85f44e6cc1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>258ab9eb-d367-47dd-9ede-792b1a386753</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Geslacht</value>
+         <variableId>30e7532f-0f86-4c1e-a05f-ed45dcde4cac</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>258ab9eb-d367-47dd-9ede-792b1a386753</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Straat</value>
+         <variableId>dcc279fb-7124-4317-a51e-bfd84d5155e5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>258ab9eb-d367-47dd-9ede-792b1a386753</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Postcode</value>
+         <variableId>e911be49-12cf-4a4d-aec6-ae54818074a9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>258ab9eb-d367-47dd-9ede-792b1a386753</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Woonplaats</value>
+         <variableId>8fe9f1c4-cbb6-4ff2-a61c-9032b008284e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>258ab9eb-d367-47dd-9ede-792b1a386753</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Telefoon</value>
+         <variableId>c9dd0c40-df60-4c32-a3ec-ed9d244e8680</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>258ab9eb-d367-47dd-9ede-792b1a386753</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Email</value>
+         <variableId>f4ac9c3d-6c69-48ae-907c-b4067aed5928</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>258ab9eb-d367-47dd-9ede-792b1a386753</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Zorgverzekeraar</value>
+         <variableId>1fe4bd5e-4f58-495a-9155-0204ba582b63</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>258ab9eb-d367-47dd-9ede-792b1a386753</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Polisnummer</value>
+         <variableId>23f38306-8ade-4a91-ad92-de17f8dff9f7</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
