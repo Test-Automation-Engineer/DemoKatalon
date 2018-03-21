@@ -22,3 +22,4 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser(GlobalVariable.G_EpdUrl)
 
+
