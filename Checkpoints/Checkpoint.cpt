@@ -11,7 +11,7 @@
       <is-using-relative-path>false</is-using-relative-path>
       <is-using-first-row-as-header>true</is-using-first-row-as-header>
    </excel-source-info>
-   <taken-date>2018-03-18T17:03:30.914</taken-date>
+   <taken-date>2018-03-21T20:04:00.041</taken-date>
    <column-names>
       <column-name>Dag_behandeling</column-name>
       <column-name>Maand_behandeling</column-name>
@@ -29,11 +29,11 @@
       "checked": false
     },
     {
-      "value": "6",
+      "value": "4",
       "checked": false
     },
     {
-      "value": "2020",
+      "value": "2019",
       "checked": false
     },
     {

@@ -6,16 +6,16 @@
    <elementGuidId>c941d51e-d698-4137-9a58-94915df1f1cb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//a[@class = 'btn btn-primary' and @href = '/site/menu?hospital=A' and (text() = 'Open EPD
 
 ' or . = 'Open EPD
 
 ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>

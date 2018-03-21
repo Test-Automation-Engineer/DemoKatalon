@@ -7,10 +7,12 @@
    <pageLoadTimeout>0</pageLoadTimeout>
    <recentExpandedTreeEntityIds>Test Cases</recentExpandedTreeEntityIds>
    <recentExpandedTreeEntityIds>Test Cases/EPD</recentExpandedTreeEntityIds>
-   <recentExpandedTreeEntityIds>Test Cases/EPD/Components</recentExpandedTreeEntityIds>
    <recentExpandedTreeEntityIds>Object Repository</recentExpandedTreeEntityIds>
-   <recentExpandedTreeEntityIds>Object Repository/EPD/UI</recentExpandedTreeEntityIds>
-   <recentExpandedTreeEntityIds>Object Repository/EPD/UI/Page_EPD online</recentExpandedTreeEntityIds>
-   <recentExpandedTreeEntityIds>Object Repository/EPD/UI/Page_EPD_Patient details</recentExpandedTreeEntityIds>
-   <recentOpenedTreeEntityIds>Test Cases/EPD/Components/UI/VerifieerPatient</recentOpenedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Object Repository/EPD</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Test Suites</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Data Files</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Checkpoints</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Keywords</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Reports</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Reports/TSC_DemoEPD</recentExpandedTreeEntityIds>
 </Project>

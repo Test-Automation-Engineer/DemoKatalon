@@ -19,5 +19,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.verifyTextPresent('de Tester', false)
+WebUI.waitForElementPresent(findTestObject('EPD/UI/Page_EPD online/td_de Tester'), 0)
 
